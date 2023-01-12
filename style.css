@@ -9,7 +9,7 @@ main {
     margin-top: 15px;
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-auto-rows: 350px;
+    grid-auto-rows: 450px;
     gap: 10px;
     font-size: 1.2em;
 }
