@@ -87,7 +87,7 @@ function createRestaurants(restaurantObj) {
     totalScore.append(getSmiley(restaurantObj.total_karakter));
 
 
-    restaurant.append(restaurantName, restaurantAddress, inspectionType, inspectionDate, inspectionStatus, theme1, theme2, theme3, theme4, totalScore);
+    restaurant.append(restaurantName, restaurantAddress, inspectionDate, inspectionType, inspectionStatus, theme1, theme2, theme3, theme4, totalScore);
 
     restaurantsContainer.append(restaurant);
 
