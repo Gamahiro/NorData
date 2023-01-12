@@ -17,12 +17,6 @@ function createSearchPage() {
     document.querySelector('main').append(searchForm);
 }
 
-function createRestaurantsUI() {
-
-    document.createElement('div')
-
-
-}
 
 
 

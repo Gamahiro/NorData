@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.restaurantsContainer {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 10px;
+}
+
+.restaurant {
+    border: 2px solid black;
+}
+
+.restaurant div:first-child {
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+.restaurant div:last-child {
+    border-top: 2px solid black;
+    font-weight: bold;
+}
