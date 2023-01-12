@@ -10,6 +10,7 @@ main {
     display: grid;
     grid-template-columns: 300px 300px 300px;
     gap: 10px;
+    font-size: 1.2em;
 }
 
 .restaurant {
@@ -26,4 +27,11 @@ main {
 .restaurant div:last-child {
     border-top: 2px solid black;
     font-weight: bold;
+}
+
+.material-icons {
+    font-size: 1.5em;
+    position: relative;
+    top: 2.5px;
+    left: 3px;
 }

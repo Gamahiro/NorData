@@ -1,6 +1,6 @@
 
-    async function getMattilsynetData() {
-        const res = await fetch('https://hotell.difi.no/api/json/mattilsynet/smilefjes/tilsyn?poststed=halden');
+    async function getMattilsynetData(locationName) {
+        const res = await fetch(`https://hotell.difi.no/api/json/mattilsynet/smilefjes/tilsyn?poststed=${locationName}`);
         const data = await res.json();
         return data;
     }
