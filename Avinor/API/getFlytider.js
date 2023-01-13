@@ -1,6 +1,5 @@
-import { xml2json } from "xml-js";
+import { xml2json } from '../../node_modules/xml-js/lib/index.js';
 
-xml2json
 
 async function getFlytider() {
     let res = await fetch('https://flydata.avinor.no/XmlFeed.asp?TimeFrom=1&TimeTo=7&airport=OSL&direction=D&lastUpdate=2009-03-10T15:03:00Z');

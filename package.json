@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "xml-js": "^1.6.11"
-  }
+  },
+  "name": "restaurantscores",
+  "description": "",
+  "version": "1.0.0",
+  "main": "script.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gamahiro/RestaurantScores.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gamahiro/RestaurantScores/issues"
+  },
+  "homepage": "https://github.com/Gamahiro/RestaurantScores#readme"
 }
