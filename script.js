@@ -1,5 +1,9 @@
-import { searchEvent } from "./Events/searchEvents.js";
-import { createSearchPage } from "./UI/searchPage.js";
+import { searchEvent } from "./MatTilsynet/Events/searchEvents.js";
+import { createSearchPage } from "./MatTilsynet/UI/searchPage.js";
 
-createSearchPage();
-searchEvent();
+function initMattilsynet() {
+    createSearchPage();
+    searchEvent();
+}
+
+initMattilsynet()
